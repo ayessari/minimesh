@@ -18,7 +18,7 @@ set(EXE_SOURCES
 
 add_executable(${PROJECT_NAME} src/main.cpp ${EXE_SOURCES})
 
-set(VTK_DIR "${VTK_INSTALL_DIR}/lib/cmake/vtk-8.2")
+set(VTK_DIR "/opt/vtk/8.2.0/lib64/cmake/vtk-8.2")
 find_package(VTK REQUIRED)
 include(${VTK_USE_FILE})
 
